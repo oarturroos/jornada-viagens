@@ -93,7 +93,7 @@ nav {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1024px) {
   header {
     padding: 38px 120px;
   }
