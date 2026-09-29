@@ -52,6 +52,11 @@ input[type="checkbox"]:checked ~ nav {
   background-color: var(--background-tertiary-color);
 }
 
+.navigation-menu {
+  width: 24px;
+  height: 16px;
+}
+
 nav {
   display: none;
 }
@@ -71,7 +76,7 @@ nav {
   font-size: 24px;
 }
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .navigation-menu {
     margin-top: 0;
     width: 467px;
@@ -91,7 +96,7 @@ nav {
     align-items: center;
     padding: 0;
   }
-}
+} */
 
 @media screen and (min-width: 1024px) {
   header {
