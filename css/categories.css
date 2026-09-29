@@ -1,44 +1,50 @@
+.categories {
+  margin-bottom: 104px;
+}
+
+.categories .section-title {
+  width: 312px;
+  margin: 0 auto;
+}
+
 .categories-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
+  margin-top: 64px;
 }
 
-.card {
-  color: var(--text-secondary-color);
-  background-color: #f5f5f5;
+.categories-cards a.card {
   width: 312px;
-  height: 288px;
-  box-sizing: border-box;
-  padding: 24px 16px;
-  border-radius: 16px;
+  height: 220px;
+  background-color: var(--background-secondary-color);
   text-align: center;
+  border-radius: 16px;
+  padding: 24px;
+  box-sizing: border-box;
+  text-decoration: none;
+  color: var(--text-primary-color);
 }
 
-.categories .section-title {
-  margin-top: 88px;
-}
-
-.categories header {
-  display: block;
-  background-color: transparent;
-  position: static;
-  padding: 0;
-  margin-bottom: 0%;
-  height: 100%;
-  width: 100%;
-  align-content: center;
-}
-
-.categories header h3 {
+.categories-cards a.card h3 {
   font-size: 28px;
   font-weight: var(--title-weight);
-  color: var(--text-primary-color);
-  margin-top: 24px;
+}
+
+.categories-cards .card.single-line {
+  padding-top: 50px;
+}
+
+.categories-cards .card.single-line.transfer img {
+    margin: 10px 0 20px;
 }
 
 @media screen and (min-width: 768px) {
+  .categories .section-title {
+    width: 100%;
+  }
+
   .categories-cards {
     flex-direction: row;
     flex-wrap: wrap;
@@ -47,22 +53,15 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .card {
-    width: 420px;
-    height: 308px;
-  }
-
-  .card h3 {
-    font-size: 48px;
+  .categories-cards a.card {
+    width: 430px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .categories-cards {
-    width: 1200px;
-    flex-wrap: nowrap;
-    margin: 0 auto;
-  } 
+  .categories-cards a.card {
+    width: 280px;
+  }
 }
 
 @media screen and (min-width: 1920px) {
