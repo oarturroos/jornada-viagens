@@ -41,22 +41,22 @@
   display: inline-block;
 }
 
-.card.japao {
+.offers .card.japao {
   background: url(../img/bg-card-japao.jpg) no-repeat;
   background-size: cover;
 }
 
-.card.san-andreas {
+.offers .card.san-andreas {
   background: url(../img/bg-card-japao.jpg) no-repeat;
   background-size: cover;
 }
 
-.card.paraiba {
+.offers .card.paraiba {
   background: url(../img/bg-card-japao.jpg) no-repeat;
   background-size: cover;
 }
 
-.card.manaus {
+.offers .card.manaus {
   background: url(../img/bg-card-japao.jpg) no-repeat;
   background-size: cover;
 }
@@ -70,22 +70,22 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .card {
+  .offers .card {
     width: 420px;
     height: 308px;
   }
 
-  .card h3 {
+  .offers .card h3 {
     font-size: 48px;
   }
 
-  .card span {
+  .offers .card span {
     font-size: 40px;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .card {
+  .offers .card {
     width: 588px;
     height: 308px;
   }
@@ -95,5 +95,5 @@
   .offers-cards {
     width: 1250px;
     margin: 0 auto;
-  }  
+  }
 }
