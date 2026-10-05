@@ -1,3 +1,7 @@
+.destinations {
+  margin-bottom: 88px;
+}
+
 .destination-items {
   display: flex;
   flex-direction: column;
