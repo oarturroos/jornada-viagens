@@ -10,7 +10,7 @@
 }
 
 .destination-items header {
-  margin-bottom: 24px;
+  margin: 24px 0;
 }
 
 .destinations .item {
@@ -18,18 +18,11 @@
 }
 
 .destinations .item header h4 {
-  color: var(--text-primary-color);
-  font-weight: var(--title-weight);
-  font-size: 28px;
-  margin: 24px 0 24px 0;
+  margin: 24px 0 0 0;
 }
 
 .destinations .item p {
-  color: var(--text-primary-color);
-  font-weight: var(--text-weight);
-  font-size: 20px;
   margin-bottom: 24px;
-  line-height: 32px;
 }
 
 .destinations .button {
