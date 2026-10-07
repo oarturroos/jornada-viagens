@@ -7,7 +7,7 @@
 
 :root {
   --primary-color: #8f0101;
-  --seconday-color: #b81515;
+  --secondary-color: #b81515;
 
   --background-primary-color: #ffffff;
   --background-secondary-color: #f5f5f5;
@@ -80,7 +80,7 @@ body {
 .section-title hr {
   width: 180px;
   height: 4px;
-  background-color: var(--seconday-color);
+  background-color: var(--secondary-color);
   border: none;
   margin: 16px auto 32px;
 }
@@ -91,7 +91,7 @@ body {
   color: var(--text-secondary-color);
   font-weight: var(--title-weight);
   font-size: 20px;
-  background-color: var(--seconday-color);
+  background-color: var(--secondary-color);
   border-radius: 16px;
   display: inline-block;
   text-decoration: none;
