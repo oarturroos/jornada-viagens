@@ -1,0 +1,116 @@
+.payments {
+  width: 312px;
+  margin: 0 auto 88px;
+}
+
+.payments .content-container {
+  height: 736px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.payments .content-container .content-title {
+  margin: 0 0 24px 0;
+}
+
+.payments .content-container .text-content {
+  height: 252px;
+}
+
+.payments .content-container .image-gallery {
+  height: 460px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 254px 182px;
+  grid-template-areas:
+    "first second"
+    "thirdy thirdy";
+  gap: 24px;
+}
+
+.payments .content-container .image-gallery .image.first {
+  background: url(../img/img-bag-mobile.jpg) no-repeat;
+  background-size: cover;
+  grid-area: first;
+}
+
+.payments .content-container .image-gallery .image.second {
+  background: url(../img/img-passport-mobile.jpg) no-repeat;
+  background-size: cover;
+  grid-area: second;
+}
+
+.payments .content-container .image-gallery .image.thirdy {
+  background: url(../img/img-people-mobile.jpg) no-repeat;
+  background-size: cover;
+  grid-area: thirdy;
+}
+
+@media screen and (min-width: 768px) {
+  .payments {
+    width: 648px;
+  }
+
+  .payments .content-container {
+    height: 606px;
+  }
+
+  .payments .content-container .text-content {
+    height: 122px;
+  }
+
+  .payments .content-container .image-gallery .image.first {
+    background: url(../img/img-bag-tablet.jpg) no-repeat;
+  }
+
+  .payments .content-container .image-gallery .image.second {
+    background: url(../img/img-passport-tablet.jpg) no-repeat;
+  }
+
+  .payments .content-container .image-gallery .image.thirdy {
+    background: url(../img/img-people-tablet.jpg) no-repeat;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payments {
+    width: 1197px;
+    height: 583px;
+  }
+
+  .payments .content-container {
+    height: 460px;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .payments .content-container .text-content {
+    height: 220px;
+  }
+
+  .payments .content-container .content-title {
+    width: 285px;
+  }
+
+  .payments .content-container .content-text {
+    width: 361px;
+  }
+
+  .payments .content-container .image-gallery {
+    width: 790px;
+  }
+
+  .payments .content-container .image-gallery .image.first {
+    background: url(../img/img-bag-desk.jpg) no-repeat;
+  }
+
+  .payments .content-container .image-gallery .image.second {
+    background: url(../img/img-passport-desk.jpg) no-repeat;
+  }
+
+  .payments .content-container .image-gallery .image.image.thirdy {
+    background: url(../img/img-people-desk.jpg) no-repeat;
+    background-size: contain;
+  }
+}
