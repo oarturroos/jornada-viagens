@@ -127,4 +127,8 @@ body {
   .section {
     width: 1200px;
   }
+
+  .section-title hr {
+    margin: 16px auto 64px;
+  }
 }
