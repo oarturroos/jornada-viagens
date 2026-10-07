@@ -61,6 +61,7 @@ body {
 .content-title {
   font-weight: var(--title-weight);
   font-size: 28px;
+  margin: 0 0 24px;
 }
 
 .content-text {
